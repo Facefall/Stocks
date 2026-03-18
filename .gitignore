@@ -9,3 +9,6 @@ utils/.local_secrets.py
 data/
 logs/
 crypto_monitor.db
+.DS_Store
+.env
+.mjs

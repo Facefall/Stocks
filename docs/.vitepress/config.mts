@@ -33,6 +33,13 @@ export default defineConfig({
       { text: '币预警（Beta）', link: '/alerts/' }
     ],
 
+    search: {
+      provider: 'local',
+      options: {
+        detailedView: true
+      }
+    },
+
     // 🔥 侧边栏：只有 summaries 才需要
     sidebar: {
       '/summaries/': [
@@ -43,7 +50,6 @@ export default defineConfig({
       ]
       // 首页 / 不需要 sidebar，因此不写 '/'
     },
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/andychenggg/Stocks' }
     ]
